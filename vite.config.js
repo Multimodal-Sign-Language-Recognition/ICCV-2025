@@ -15,7 +15,7 @@ export default defineConfig({
     }),
   ],
 
-  base: "/MSLR/",
+  base: "/ICCV-2025/",
   
   resolve: {
     alias: {
