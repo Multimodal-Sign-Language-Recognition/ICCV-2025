@@ -4,11 +4,9 @@
 
 ## 🌟 Overview
 
-Official website for the Multimodal Sign Language Recognition (MSLR) Workshop at IEEE/CVF ICCV 2025, taking place in Honolulu, Hawaii on October 20th, 2025.
+Official website for the 1st Multimodal Sign Language Recognition (MSLR) Workshop at IEEE/CVF ICCV 2025, taking place in Honolulu, Hawaii on October 20th, 2025.
 
 This website provides comprehensive information about the workshop, including schedules, speakers, submission guidelines, and challenge details.
-
-🔗 **Live Website**: [https://mslr.esamjaafar.com/](https://mslr.esamjaafar.com/)
 
 ## 🚀 Features
 
@@ -48,8 +46,8 @@ This website provides comprehensive information about the workshop, including sc
 
 1. Clone the repository
    ```
-   git clone https://github.com/jfr3sam/MSLR.git
-   cd MSLR
+   git clone https://github.com/Multimodal-Sign-Language-Recognition/ICCV-2025
+   cd ICCV-2025
    ```
 
 2. Install dependencies
