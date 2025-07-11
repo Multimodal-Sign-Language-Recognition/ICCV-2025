@@ -18,8 +18,8 @@ import { generateStructuredData, generateOpenGraphTags, getCanonicalUrl, generat
  * @param {Object} props.children - Child components
  */
 const SEOWrapper = ({
-  title = "MSLR 2025 | Multimodal Sign Language Recognition Workshop",
-  description = "MSLR 2025 - Multimodal Sign Language Recognition Workshop at IEEE/CVF ICCV 2025 in Honolulu, Hawaii.",
+  title = "MSLR 2025 | 1st Multimodal Sign Language Recognition Workshop",
+  description = "MSLR 2025 - 1st Multimodal Sign Language Recognition Workshop at IEEE/CVF ICCV 2025 in Honolulu, Hawaii.",
   path = "",
   imageUrl = "/src/assets/images/logo_small.jpeg",
   noindex = false,
@@ -28,8 +28,8 @@ const SEOWrapper = ({
   children
 }) => {
   // Generate canonical URL
-  const canonicalUrl = getCanonicalUrl("https://mslr2025.com", path);
-  
+  const canonicalUrl = getCanonicalUrl("https://Multimodal-Sign-Language-Recognition.github.io/ICCV-2025", path);
+
   // Generate robots meta tags
   const robotsMeta = generateRobotsMeta({
     index: !noindex,

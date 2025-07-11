@@ -10,8 +10,8 @@
 // import honoluluSkyline from "../../assets/images/honoluluSkyline.jpeg";
 
 // const Hero = () => {
-//     const title = "Multimodal Sign Language Recognition";
-//     const subtitle = "IEEE/CVF ICCV 2025 Workshop";
+//     const title = "1st Multimodal Sign Language Recognition Workshop";
+//     const subtitle = "IEEE/CVF ICCV 2025";
 
 //     // Preload critical images for best LCP performance
 //     useEffect(() => {
@@ -273,8 +273,8 @@
 // import honoluluSkyline from "../../assets/images/honolulu_skyline.jpeg";
 
 // const Hero = () => {
-//     const title = "Multimodal Sign Language Recognition";
-//     const subtitle = "IEEE/CVF ICCV 2025 Workshop";
+//     const title = "1st Multimodal Sign Language Recognition Workshop";
+//     const subtitle = "IEEE/CVF ICCV 2025";
 
 //     // Preload critical images for best LCP performance
 //     useEffect(() => {
@@ -529,8 +529,8 @@ import signLanguageHands from "../../assets/images/1__LRD9SzCgmze-8jC25O3KA.png"
 import honoluluSkyline from "../../assets/images/honoluluSkyline.jpeg";
 
 const Hero = () => {
-    const title = "Multimodal Sign Language Recognition";
-    const subtitle = "IEEE/CVF ICCV 2025 Workshop";
+    const title = "1st Multimodal Sign Language Recognition Workshop";
+    const subtitle = "IEEE/CVF ICCV 2025";
 
     // Preload critical images for best LCP performance
     useEffect(() => {

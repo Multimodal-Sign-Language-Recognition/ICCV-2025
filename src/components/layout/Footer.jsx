@@ -35,7 +35,7 @@ const Footer = () => {
                             <span className="font-poppins text-xl text-white group-hover:text-brand-accent transition-colors">MSLR 2025</span>
                         </button>
                         <p className="text-sm leading-relaxed font-poppins">
-                            Multimodal Sign Language Recognition Workshop at IEEE/CVF ICCV 2025.
+                            1st Multimodal Sign Language Recognition Workshop at IEEE/CVF ICCV 2025.
                             Join us in Honolulu, Hawaii!
                         </p>
                         <div className="mt-4">

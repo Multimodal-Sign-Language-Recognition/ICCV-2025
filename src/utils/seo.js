@@ -8,9 +8,9 @@ export function generateStructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Event",
-    name: "MSLR 2025 - Multimodal Sign Language Recognition Workshop",
+    name: "MSLR 2025 - 1st Multimodal Sign Language Recognition Workshop",
     description:
-      "IEEE/CVF ICCV 2025 Workshop on Multimodal Sign Language Recognition",
+      "IEEE/CVF ICCV 2025 1st Workshop on Multimodal Sign Language Recognition",
     startDate: "2025-10-20T08:30:00-10:00",
     endDate: "2025-10-20T18:15:00-10:00",
     eventStatus: "https://schema.org/EventScheduled",
@@ -28,11 +28,11 @@ export function generateStructuredData() {
     organizer: {
       "@type": "Organization",
       name: "MSLR 2025 Organizing Committee",
-      url: "https://mslr2025.com",
+      url: "https://Multimodal-Sign-Language-Recognition.github.io/ICCV-2025",
     },
     offers: {
       "@type": "Offer",
-      url: "https://mslr2025.com/#registration",
+      url: "https://Multimodal-Sign-Language-Recognition.github.io/ICCV-2025/#registration",
       price: "0",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
@@ -72,10 +72,10 @@ export function generateStructuredData() {
  * @returns {Array} Array of OG meta objects
  */
 export function generateOpenGraphTags({
-  title = "MSLR 2025 | Multimodal Sign Language Recognition",
-  description = "ICCV 2025 Workshop on Multimodal Sign Language Recognition in Honolulu, Hawaii",
+  title = "MSLR 2025 | 1st Multimodal Sign Language Recognition Workshop",
+  description = "ICCV 2025 1st Workshop on Multimodal Sign Language Recognition in Honolulu, Hawaii",
   imageUrl = "/src/assets/images/logo_small.jpeg",
-  url = "https://mslr2025.com",
+  url = "https://Multimodal-Sign-Language-Recognition.github.io/ICCV-2025",
   type = "website",
 } = {}) {
   return [
@@ -84,7 +84,7 @@ export function generateOpenGraphTags({
     { property: "og:image", content: imageUrl },
     { property: "og:url", content: url },
     { property: "og:type", content: type },
-    { property: "og:site_name", content: "MSLR 2025 Workshop" },
+    { property: "og:site_name", content: "1st MSLR 2025 Workshop" },
 
     // Twitter Card
     { name: "twitter:card", content: "summary_large_image" },
@@ -100,7 +100,7 @@ export function generateOpenGraphTags({
  * @param {string} path - Current page path
  * @returns {string} - Canonical URL
  */
-export function getCanonicalUrl(basePath = "https://mslr2025.com", path = "") {
+export function getCanonicalUrl(basePath = "https://Multimodal-Sign-Language-Recognition.github.io/ICCV-2025", path = "") {
   // Remove trailing slash from base and leading slash from path
   const baseWithoutTrailingSlash = basePath.replace(/\/$/, "");
   const pathWithoutLeadingSlash = path.replace(/^\//, "");
