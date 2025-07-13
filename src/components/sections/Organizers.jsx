@@ -5,23 +5,23 @@ import { motion } from 'framer-motion';
 import { Users, UserCheck, Mail, ExternalLink, MapPin, Award as AwardIcon } from 'lucide-react'; // Corrected import
 
 import Dr_Hamza from "../../assets/images/HamzahLuqman.jpeg";
-import Dr_Simone from "../../assets/images/simone.png";
-import Dr_Maad from "../../assets/images/maad.jpg";
 import Eng_Raffaele from "../../assets/images/raffaele.jpeg";
+import Dr_Maad from "../../assets/images/maad.jpg";
+import Dr_Simone from "../../assets/images/simone.png";
 
 const organizersData = {
   chairs: [
     { name: "Dr. Hamzah Luqman", affiliation: "King Fahd University of Petroleum and Minerals, KSA", imgSrc: Dr_Hamza , link: "https://scholar.google.com/citations?user=JgGFu2QAAAAJ&hl=en"},
-    { name: "Dr. Simone Palazzo", affiliation: "University of Catania, Italy", imgSrc: Dr_Simone , link:"https://scholar.google.com/citations?hl=en&user=yJr6TqAAAAAJ"},
-    { name: "Dr. Maad Alowaifeer", affiliation: "King Fahd University of Petroleum & Minerals, KSA", imgSrc: Dr_Maad , link:"https://scholar.google.com/citations?hl=en&user=dLjEuacAAAAJ"},
     { name: "Eng. Raffaele Mineo", affiliation: "University of Catania, Italy", imgSrc: Eng_Raffaele , link:"https://scholar.google.com/citations?hl=en&user=nYSplWUAAAAJ"},
+    { name: "Dr. Maad Alowaifeer", affiliation: "King Fahd University of Petroleum & Minerals, KSA", imgSrc: Dr_Maad , link:"https://scholar.google.com/citations?hl=en&user=dLjEuacAAAAJ"},
+    { name: "Dr. Simone Palazzo", affiliation: "University of Catania, Italy", imgSrc: Dr_Simone , link:"https://scholar.google.com/citations?hl=en&user=yJr6TqAAAAAJ"},
   ],
   workshopOrganizers: [
     "Dr. Motaz Alfarraj — King Fahd University of Petroleum & Minerals (KFUPM), KSA",
     "Dr. Mufti Mahmud — King Fahd University of Petroleum & Minerals, KSA",
+    "Eng. Amelia Sorrenti — University of Catania, Italy",
     "Dr. Federica Proietto Salanitri — University of Catania, Italy",
     "Dr. Giovanni Bellitto — University of Catania, Italy",
-    "Eng. Amelia Sorrenti — University of Catania, Italy",
     "Dr. Concetto Spampinato — University of Catania, Italy",
     "Dr. Silvio Giancola — King Abdullah University of Science and Technology, KSA",
     "Dr. Muhammad Haris Khan — Mohamed Bin Zayed University of AI, UAE",
