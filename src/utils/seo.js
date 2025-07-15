@@ -51,8 +51,8 @@ export function generateStructuredData() {
       },
       {
         "@type": "Person",
-        name: "Dr. Ehsan Hoque",
-        affiliation: "University of Rochester, USA",
+        name: "Dr. Leon Sigal",
+        affiliation: "University of British Columbia, Canada",
       },
     ],
     about: {

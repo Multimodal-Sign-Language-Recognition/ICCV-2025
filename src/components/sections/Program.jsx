@@ -6,7 +6,7 @@ import { ChevronRight, ExternalLink, UserCircle, Clock, Coffee, Users, Mic, Pres
 
 import Prof_Richard from "../../assets/images/RichardBowden.webp";
 import Dr_Oscar from "../../assets/images/oscarkoller.jpg";
-import Dr_Ehsan from "../../assets/images/ehsan.jpeg";
+import Dr_Leon from "../../assets/images/leon-sigal.jpg";
 
 const programSchedule = [
     { time: "08:30-08:45", event: "Opening remarks, goals, challenge overview", icon: Mic, type: "general" },
@@ -18,7 +18,7 @@ const programSchedule = [
     { time: "12:00-13:00", event: "Oral presentations (Session 3)", icon: Presentation, type: "presentation" },
     { time: "13:00-14:00", event: "Lunch Break", icon: Coffee, type: "break" }, // Using Coffee for generic break
     { time: "14:00-15:00", event: "Oral presentations (Session 4)", icon: Presentation, type: "presentation" },
-    { time: "15:00-15:30", event: "Keynote 3: Dr. Ehsan Hoque", icon: UserCircle, type: "keynote" },
+    { time: "15:00-15:30", event: "Keynote 3: Dr. Leon Sigal", icon: UserCircle, type: "keynote" },
     { time: "15:30-17:30", event: "Poster Session & Demos", icon: Users, type: "poster" },
     { time: "17:30-18:00", event: "Panel Discussion: Dataset Curation & Future Directions", icon: MessageSquare, type: "panel" },
     { time: "18:00-18:15", event: "Awards and Closing Remarks", icon: AwardIcon, type: "general" },
@@ -35,7 +35,7 @@ const speakersData = [
         abstract: "In this keynote, we share our journey toward making sign language technologies a core part of Microsoft’s accessibility efforts—particularly in enhancing communication experiences for Deaf and sign language users in Microsoft Teams. We highlight the transformative role of synthetic data in overcoming the scarcity of annotated sign language datasets, enabling scalable, inclusive, and diverse training resources. By leveraging time-synchronized multi-view capture, precise registration, and rendering pipelines, we generate richly labeled synthetic data across varied identities and environments. We advocate for community-driven multi-view data collection and emphasize that zero-shot evaluation—without fine-tuning—is the true benchmark for real-world deployment. This talk outlines our key learnings and invites collaboration to advance sign language technology for all.",
         link: "https://scholar.google.com/citations?hl=it&user=vZrN9OgAAAAJ" 
     },
-    { name: "Dr. Ehsan Hoque", affiliation: "University of Rochester, USA", imgSrc: Dr_Ehsan, bio: "Ehsan Hoque (Ph.D. MIT, 2013) is a tenured Professor (on-leave) of Computer Science at the University of Rochester and co-leads the Rochester Human-Computer Interaction (ROC HCI) Lab. Hoque’s research focuses on AI-driven health technologies, human-centered computing, and leveraging AI to improve socioemotional skills and healthcare interactions.", link: "https://scholar.google.com/citations?hl=it&user=ZJrR0KQAAAAJ" },
+    { name: "Dr. Leonid Sigal", affiliation: "University of British Columbia, Canada", imgSrc: Dr_Leon, bio: "Prof. Leonid Sigal is a Professor at the University of British Columbia (UBC). He was appointed CIFAR AI Chair at the Vector Institute in 2019 and an NSERC Tier 2 Canada Research Chair in Computer Vision and Machine Learning in 2018. Prior to this, he was a Senior Research Scientist, and a group lead, at Disney Research. He completed his Ph.D at Brown University in 2008; received his B.Sc. degrees in Computer Science and Mathematics from Boston University in 1999, his M.A. from Boston University in 1999, and his M.S. from Brown University in 2003. Leonid’s research interests lie in the areas of computer vision, machine learning, and computer graphics; with the emphasis on approaches for visual and multi-modal representation learning, recognition, understanding and generative modeling. He has won a number of research awards, including Killam Accelerator Fellowship in 2021 and has published over 100 papers in venues such as CVPR, ICCV, ECCV, NeurIPS, ICLR, and Siggraph.", link: "https://scholar.google.com/citations?user=P2mG6rcAAAAJ&hl=en" },
 ];
 
 const cardVariants = (delay = 0) => ({

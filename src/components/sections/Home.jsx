@@ -6,7 +6,7 @@ import { Award, Users, Mic, FileText, ChevronRight, ExternalLink } from 'lucide-
 
 import Prof_Richard from "../../assets/images/RichardBowden.webp";
 import Dr_Oscar from "../../assets/images/oscarkoller.jpg";
-import Dr_Ehsan from "../../assets/images/ehsan.jpeg";
+import Dr_Leon from "../../assets/images/leon-sigal.jpg";
 
 const content = {
     overview: [
@@ -29,14 +29,14 @@ const content = {
     speakers: [
         { name: "Prof. Richard Bowden", affiliation: "University of Surrey, UK", imgSrc: Prof_Richard },
         { name: "Dr. Oscar Koller", affiliation: "Microsoft Inc., USA", imgSrc: Dr_Oscar },
-        { name: "Dr. Ehsan Hoque", affiliation: "University of Rochester, USA", imgSrc: Dr_Ehsan },
+        { name: "Dr. Leonid Sigal", affiliation: "University of Rochester, USA", imgSrc: Dr_Leon },
     ]
 };
 
 const speakersData = [
     { name: "Prof. Richard Bowden", affiliation: "University of Surrey, UK", imgSrc: Prof_Richard, bio: "Richard Bowden is Professor of Computer Vision and Machine Learning at the University of Surrey where he leads the Cognitive Vision Group within CVSSP and is Associate Dean for postgraduate research within his faculty. His research centres on the use of computer vision to locate, track, understand and learn from humans.", link: "https://scholar.google.com/citations?user=mvvgDvcAAAAJ" },
     { name: "Dr. Oscar Koller", affiliation: "Microsoft Inc., USA", imgSrc: Dr_Oscar, bio: "Oscar Koller is an applied scientist in Microsoft's Speech and Language group. His research interests span many topics across speech recognition, sign language translation, sign language production, and computer vision in general.", link: "https://scholar.google.com/citations?hl=it&user=vZrN9OgAAAAJ" },
-    { name: "Dr. Ehsan Hoque", affiliation: "University of Rochester, USA", imgSrc: Dr_Ehsan, bio: "Ehsan Hoque (Ph.D. MIT, 2013) is a tenured Professor (on-leave) of Computer Science at the University of Rochester and co-leads the Rochester Human-Computer Interaction (ROC HCI) Lab. Hoque’s research focuses on AI-driven health technologies, human-centered computing, and leveraging AI to improve socioemotional skills and healthcare interactions.", link: "https://scholar.google.com/citations?hl=it&user=ZJrR0KQAAAAJ" },
+    { name: "Dr. Leonid Sigal", affiliation: "University of British Columbia, Canada", imgSrc: Dr_Leon, bio: "Prof. Leonid Sigal is a Professor at the University of British Columbia (UBC). He was appointed CIFAR AI Chair at the Vector Institute in 2019 and an NSERC Tier 2 Canada Research Chair in Computer Vision and Machine Learning in 2018. Prior to this, he was a Senior Research Scientist, and a group lead, at Disney Research. He completed his Ph.D at Brown University in 2008; received his B.Sc. degrees in Computer Science and Mathematics from Boston University in 1999, his M.A. from Boston University in 1999, and his M.S. from Brown University in 2003. Leonid’s research interests lie in the areas of computer vision, machine learning, and computer graphics; with the emphasis on approaches for visual and multi-modal representation learning, recognition, understanding and generative modeling. He has won a number of research awards, including Killam Accelerator Fellowship in 2021 and has published over 100 papers in venues such as CVPR, ICCV, ECCV, NeurIPS, ICLR, and Siggraph.", link: "https://scholar.google.com/citations?user=P2mG6rcAAAAJ&hl=en" },
 ];
 
 const itemVariants = {
