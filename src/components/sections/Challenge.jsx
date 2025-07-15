@@ -154,7 +154,7 @@ const ChallengeCard = ({ track, index }) => {
 
 const Challenge = () => {
     return (
-        <SectionWrapper id="challenge-internal" title="Take On The Challenge" subtitle="Push the Boundaries" bgColor="bg-white">
+        <SectionWrapper id="challenge-internal" title="SignEval 2025: The First Multimodal Sign Language Recognition Challenge" subtitle="Push the Boundaries" bgColor="bg-white">
             <motion.p
                 className="max-w-3xl mx-auto text-center text-lg text-brand-neutral-700 mb-12 md:mb-16 leading-relaxed"
                 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
