@@ -43,7 +43,7 @@ const speakersData = [
         affiliation: "Gallaudet University, USA", 
         imgSrc: Dr_Abraham, 
         bio: "Dr. Abraham Glasser is a faculty member in the Accessible Human-Centered Computing program at Gallaudet University, and there he is also co-director of the Rehabilitation Engineering Research Center on Technology for the Deaf and Hard of Hearing (DHH RERC). He and his students conduct Human Computer Interaction (HCI) research involving AI, immersive technologies, and accessible computing for Deaf and Hard of Hearing users. He is also a member of the Coalition for Sign Language Equity in Technology (CoSET) and has contributed to published resources supporting standards work, e.g. for AI-based interpreting. Overall, Dr. Glasser has published numerous works and delivered award-winning presentations at prestigious international venues, such as ACM, IEEE, and other events, including but not limited to AAATE, ASSETS, CHI, CSUN ATC, CUI, CVPR, DAC, EMNLP, GALA, ICED, LREC, TAPIA, TISLR, IEEE VR, VRST, W4A, XR ACCESS, and WFD events.", 
-        link: "https://scholar.google.com/citations?hl=en&user=z1fXN4AAAAAJ" 
+        link: "https://scholar.google.com/citations?hl=en&user=z1fXN4AAAAAJ"
     },
 ];
 
