@@ -7,6 +7,8 @@ import { ChevronRight, ExternalLink, UserCircle, Clock, Coffee, Users, Mic, Pres
 import Prof_Richard from "../../assets/images/RichardBowden.webp";
 import Dr_Oscar from "../../assets/images/oscarkoller.jpg";
 import Dr_Leon from "../../assets/images/leon-sigal.jpg";
+import Dr_Abraham from "../../assets/images/glasser_abraham_headshot_cropped.jpeg";
+
 
 const programSchedule = [
     { time: "08:30-08:45", event: "Opening remarks, goals, challenge overview", icon: Mic, type: "general" },
@@ -36,6 +38,13 @@ const speakersData = [
         link: "https://scholar.google.com/citations?hl=it&user=vZrN9OgAAAAJ" 
     },
     { name: "Dr. Leonid Sigal", affiliation: "University of British Columbia, Canada", imgSrc: Dr_Leon, bio: "Prof. Leonid Sigal is a Professor at the University of British Columbia (UBC). He was appointed CIFAR AI Chair at the Vector Institute in 2019 and an NSERC Tier 2 Canada Research Chair in Computer Vision and Machine Learning in 2018. Prior to this, he was a Senior Research Scientist, and a group lead, at Disney Research. He completed his Ph.D at Brown University in 2008; received his B.Sc. degrees in Computer Science and Mathematics from Boston University in 1999, his M.A. from Boston University in 1999, and his M.S. from Brown University in 2003. Leonid’s research interests lie in the areas of computer vision, machine learning, and computer graphics; with the emphasis on approaches for visual and multi-modal representation learning, recognition, understanding and generative modeling. He has won a number of research awards, including Killam Accelerator Fellowship in 2021 and has published over 100 papers in venues such as CVPR, ICCV, ECCV, NeurIPS, ICLR, and Siggraph.", link: "https://scholar.google.com/citations?user=P2mG6rcAAAAJ&hl=en" },
+    { 
+        name: "Dr. Abraham Glasser", 
+        affiliation: "Gallaudet University, USA", 
+        imgSrc: Dr_Abraham, 
+        bio: "Dr. Abraham Glasser is a faculty member in the Accessible Human-Centered Computing program at Gallaudet University, and there he is also co-director of the Rehabilitation Engineering Research Center on Technology for the Deaf and Hard of Hearing (DHH RERC). He and his students conduct Human Computer Interaction (HCI) research involving AI, immersive technologies, and accessible computing for Deaf and Hard of Hearing users. He is also a member of the Coalition for Sign Language Equity in Technology (CoSET) and has contributed to published resources supporting standards work, e.g. for AI-based interpreting. Overall, Dr. Glasser has published numerous works and delivered award-winning presentations at prestigious international venues, such as ACM, IEEE, and other events, including but not limited to AAATE, ASSETS, CHI, CSUN ATC, CUI, CVPR, DAC, EMNLP, GALA, ICED, LREC, TAPIA, TISLR, IEEE VR, VRST, W4A, XR ACCESS, and WFD events.", 
+        link: "https://scholar.google.com/citations?hl=en&user=z1fXN4AAAAAJ" 
+    },
 ];
 
 const cardVariants = (delay = 0) => ({
