@@ -16,14 +16,15 @@ const programSchedule = [
     { time: "09:45-10:15", event: "Keynote 1: Prof. Richard Bowden", icon: UserCircle, type: "keynote" },
     { time: "10:15-11:15", event: "Oral presentations (Session 2)", icon: Presentation, type: "presentation" },
     { time: "11:15-11:30", event: "Coffee Break & Networking", icon: Coffee, type: "break" },
-    { time: "11:30-12:00", event: "Keynote 2: Dr. Oscar Koller", icon: UserCircle, type: "keynote" },
+    { time: "11:30-12:00", event: "Keynote 2: Dr. Leon Sigal", icon: UserCircle, type: "keynote" },
     { time: "12:00-13:00", event: "Oral presentations (Session 3)", icon: Presentation, type: "presentation" },
     { time: "13:00-14:00", event: "Lunch Break", icon: Coffee, type: "break" }, // Using Coffee for generic break
-    { time: "14:00-15:00", event: "Oral presentations (Session 4)", icon: Presentation, type: "presentation" },
-    { time: "15:00-15:30", event: "Keynote 3: Dr. Leon Sigal", icon: UserCircle, type: "keynote" },
-    { time: "15:30-17:30", event: "Poster Session & Demos", icon: Users, type: "poster" },
-    { time: "17:30-18:00", event: "Panel Discussion: Dataset Curation & Future Directions", icon: MessageSquare, type: "panel" },
-    { time: "18:00-18:15", event: "Awards and Closing Remarks", icon: AwardIcon, type: "general" },
+    { time: "14:00-14:30", event: "Keynote 3: Dr. Oscar Koller", icon: UserCircle, type: "keynote" },
+    { time: "14:30-15:00", event: "Keynote 4: Abraham Glasser", icon: UserCircle, type: "keynote" },
+    { time: "15:00-15:15", event: "Coffee Break & Networking", icon: Coffee, type: "break" },
+    { time: "15:15-16:15", event: "Oral presentations (Session 4)", icon: Presentation, type: "presentation" },
+    { time: "16:15-16:30", event: "Awards and Closing Remarks", icon: AwardIcon, type: "general" },
+    { time: "16:30-18:00", event: "Poster Session, Demos, & Networking", icon: Users, type: "poster" },
 ];
 
 const speakersData = [
