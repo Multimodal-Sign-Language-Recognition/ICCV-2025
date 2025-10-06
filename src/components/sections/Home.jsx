@@ -43,6 +43,8 @@ const speakersData = [
         imgSrc: Prof_Richard, 
         bio: "Richard Bowden is Professor of Computer Vision and Machine Learning at the University of Surrey where he leads the Cognitive Vision Group within CVSSP and is Associate Dean for postgraduate research within his faculty. His research centres on the use of computer vision to locate, track, understand and learn from humans.", 
         link: "https://scholar.google.com/citations?user=mvvgDvcAAAAJ",
+        title: "Automatic translation of Sign Languages",
+        abstract: "Having worked on technology for sign language recognition and translation for over two decades, this talk will summarise the current state of the art in the field and outline recent advances at the University of Surrey. It will discuss ongoing work funded by Google on automatic translation between spoken language and both British and American Sign Languages (BSL and ASL), and introduce the new SignGPT project—an £8.46M UKRI-funded programme aiming to revolutionise accessibility and communication for Deaf communities through generative AI models that translate seamlessly between spoken and signed languages. The talk will also introduce Signapse AI, a University of Surrey spin-out deploying early versions of these technologies in real-world contexts such as transport and broadcasting in both BSL and ASL. Together, these initiatives demonstrate how co-created AI—developed with and for the Deaf community—can unlock inclusive, multimodal communication for the future."
     },
     { 
         name: "Dr. Oscar Koller", 
