@@ -56,24 +56,60 @@ const listItemVariants = (delay = 0) => ({
 
 const sessionDetails = {
   1: [
-    "A Closer Look at Skeleton-based Continuous Sign Language Recognition",
-    "Iterative Latent Refinement for Robust Non-Autoregressive Sign Language Production",
-    "SAGE: Segment-Aware Gloss-Free Encoding for Token-Efficient Sign Language Translation",
+    {
+      title: "A Closer Look at Skeleton-based Continuous Sign Language Recognition",
+      authors: "Yuecong Min, Yifan Yang, Peiqi Jiao, Zixi Nan and Xilin Chen",
+    },
+    {
+      title: "Iterative Latent Refinement for Robust Non-Autoregressive Sign Language Production",
+      authors: "Tuğçe Kızıltepe, Sümeyye Meryem Taşyürek and Hacer Yalım Keleş",
+    },
+    {
+      title: "SAGE: Segment-Aware Gloss-Free Encoding for Token-Efficient Sign Language Translation",
+      authors: "Jian He Low, Ozge Mercanoglu Sincan, Richard Bowden",
+    },
   ],
   2: [
-    "AutoSign: Direct Pose-to-Text Translation for Continuous Sign Language Recognition",
-    "Can a Lightweight Transformer Deliver a Robust Multimodal Sign Language Word Recognition?",
-    "Point-Supervised Japanese Fingerspelling Localization via HR-Pro and Contrastive Learning",
+    {
+      title: "AutoSign: Direct Pose-to-Text Translation for Continuous Sign Language Recognition",
+      authors: "Samuel Johnny, Blessed Guda, Andrew Stephen, Assane Gueye",
+    },
+    {
+      title: "Can a Lightweight Transformer Deliver a Robust Multimodal Sign Language Word Recognition?",
+      authors: "Eva Berepiki, Philip Ciunkiewicz, Svetlana Yanushkevich",
+    },
+    {
+      title: "Point-Supervised Japanese Fingerspelling Localization via HR-Pro and Contrastive Learning",
+      authors: "Ryota Murai, Naoto Tsuta, Duk Shin, Yousun Kang",
+    },
   ],
   3: [
-    "Text-Aligned Radar-Based Sign Language Recognition for Healthcare Communication",
-    "RF-ChessSIGN: Radar-enabled Human-Computer Interaction in a Real-Time Sign Language-Controlled Game",
-    "A Smart Glove to convert gestures to speech & Text to Assist Deaf & Mute People Using Machine Learning"
+    {
+      title: "Text-Aligned Radar-Based Sign Language Recognition for Healthcare Communication",
+      authors: "Raffaele Mineo, Amelia Sorrenti, Gaia Caligiore, Federica Proietto Salanitri, Giovanni Bellitto, Senya Polikovsky, Sabina Fontana, Edigio Ragonese, Concetto Spampinato, Simone Palazzo",
+    },
+    {
+      title: "RF-ChessSIGN: Radar-enabled Human-Computer Interaction in a Real-Time Sign Language-Controlled Game",
+      authors: "Kenneth DeHaan, Emre Kurtoglu, Sabyasachi Biswas, Caroline Kobek Pezzarossi, Darrin Griffin,Chris Crawford,Ali Gurbuz,Evie Malaia,Abraham Glasser, Raja Kushalnagar, Sevgi Gurbuz",
+    },
+    {
+      title: "A Smart Glove to convert gestures to speech & Text to Assist Deaf & Mute People Using Machine Learning",
+      authors: "Manisha A, Tamilselvi S",
+    },
   ],
   4: [
-    "Development of an Intelligent System for Recognizing Islamic Religious Visual Signs in the Arabic Language",
-    "Inclusive Sign Language AI: Towards Authentic Accessibility Through Community Collaboration",
-    "The SignEval 2025 Challenge at the ICCV Multimodal Sign Language Recognition Workshop: Results and Discussion",
+    {
+      title: "Development of an Intelligent System for Recognizing Islamic Religious Visual Signs in the Arabic Language",
+      authors: "dauaa mhnaa, Dr.Jafar Slman, Dr.yaroub Dayoub",
+    },
+    {
+      title: "Inclusive Sign Language AI: Towards Authentic Accessibility Through Community Collaboration",
+      authors: "Abraham Glasser",
+    },
+    {
+      title: "The SignEval 2025 Challenge at the ICCV Multimodal Sign Language Recognition Workshop: Results and Discussion",
+      authors: "SignEval 2025 Organizing Committee",
+    },
   ],
 };
 
@@ -157,9 +193,17 @@ const Program = () => {
 
                   {/* Oral presentations list */}
                   {item.type === "presentation" && item.session && (
-                    <ul className="list-disc ml-5 text-sm text-brand-neutral-700 mt-1 space-y-1">
-                      {sessionDetails[item.session].map((talk, i) => (
-                        <li key={i}>{talk}</li>
+                    <ul className="list-disc ml-5 text-sm text-brand-neutral-700 mt-2 space-y-3">
+                      {sessionDetails[item.session].map((paper, i) => (
+                        <li key={i} className="space-y-1">
+                          {/* Paper title */}
+                          <p className="font-medium">{paper.title}</p>
+
+                          {/* Author names */}
+                          <p className="text-xs italic text-teal-600">
+                            {paper.authors}
+                          </p>
+                        </li>
                       ))}
                     </ul>
                   )}
