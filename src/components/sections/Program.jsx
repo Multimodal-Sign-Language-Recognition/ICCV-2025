@@ -5,23 +5,6 @@ import { motion } from 'framer-motion';
 import { ChevronRight, ExternalLink, UserCircle, Clock, Coffee, Users, Mic, Presentation, MessageSquare, Award as AwardIcon } from 'lucide-react';
 
 
-// const programSchedule = [
-//     { time: "08:30-08:45", event: "Opening remarks, goals, challenge overview", icon: Mic, type: "general" },
-//     { time: "08:45-09:45", event: "Oral presentations (Session 1)", icon: Presentation, type: "presentation" },
-//     { time: "09:45-10:15", event: "Keynote 1: Prof. Richard Bowden", icon: UserCircle, type: "keynote" },
-//     { time: "10:15-11:15", event: "Oral presentations (Session 2)", icon: Presentation, type: "presentation" },
-//     { time: "11:15-11:30", event: "Coffee Break & Networking", icon: Coffee, type: "break" },
-//     { time: "11:30-12:00", event: "Keynote 2: Dr. Leon Sigal", icon: UserCircle, type: "keynote" },
-//     { time: "12:00-13:00", event: "Oral presentations (Session 3)", icon: Presentation, type: "presentation" },
-//     { time: "13:00-14:00", event: "Lunch Break", icon: Coffee, type: "break" }, // Using Coffee for generic break
-//     { time: "14:00-14:30", event: "Keynote 3: Dr. Oscar Koller", icon: UserCircle, type: "keynote" },
-//     { time: "14:30-15:00", event: "Keynote 4: Abraham Glasser", icon: UserCircle, type: "keynote" },
-//     { time: "15:00-15:15", event: "Coffee Break & Networking", icon: Coffee, type: "break" },
-//     { time: "15:15-16:15", event: "Oral presentations (Session 4)", icon: Presentation, type: "presentation" },
-//     { time: "16:15-16:30", event: "Awards and Closing Remarks", icon: AwardIcon, type: "general" },
-//     { time: "16:30-18:00", event: "Poster Session, Demos, & Networking", icon: Users, type: "poster" },
-// ];
-
 import Prof_Richard from "../../assets/images/RichardBowden.webp";
 import Dr_Oscar from "../../assets/images/oscarkoller.jpg";
 import Dr_Leon from "../../assets/images/leon-sigal.jpg";
@@ -33,15 +16,16 @@ const programSchedule = [
   { time: "09:45-10:15", event: "Keynote 1 - Prof. Richard Bowden", icon: UserCircle, type: "keynote", img: Prof_Richard, title: "Automatic translation of Sign Languages" },
   { time: "10:15-11:15", event: "Oral presentations (Session 2)", icon: Presentation, type: "presentation", session: 2 },
   { time: "11:15-11:30", event: "Coffee Break & Networking", icon: Coffee, type: "break" },
-  { time: "11:30-12:00", event: "Keynote 2 - Dr. Leon Sigal", icon: UserCircle, type: "keynote", img: Dr_Leon, title: "TBA" },
+  { time: "11:30-12:00", event: "Keynote 2 - Dr. Leon Sigal", icon: UserCircle, type: "keynote", img: Dr_Leon, title: "The Curious Case of Foundational and VLM Models" },
   { time: "12:00-13:00", event: "Oral presentations (Session 3)", icon: Presentation, type: "presentation", session: 3 },
   { time: "13:00-14:00", event: "Lunch Break", icon: Coffee, type: "break" },
   { time: "14:00-14:30", event: "Keynote 3 - Dr. Oscar Koller", icon: UserCircle, type: "keynote", img: Dr_Oscar, title: "Delivering Sign Language AI at Scale: From Synthetic Data to Real-World Use" },
   { time: "14:30-15:00", event: "Keynote 4 - Abraham Glasser", icon: UserCircle, type: "keynote", img: Dr_Abraham, title: "TBA" },
   { time: "15:00-15:15", event: "Coffee Break & Networking", icon: Coffee, type: "break" },
   { time: "15:15-16:15", event: "Oral presentations (Session 4)", icon: Presentation, type: "presentation", session: 4 },
-  { time: "16:15-16:30", event: "Awards and Closing Remarks", icon: AwardIcon, type: "general" },
-  { time: "16:30-18:00", event: "Poster Session, Demos, & Networking", icon: Users, type: "poster" },
+  { time: "16:15-16:45", event: "Poster Presentations", icon: Presentation, type: "presentation"},
+  { time: "16:45-17:00", event: "Awards and Closing Remarks", icon: AwardIcon, type: "general" },
+  { time: "17:00-18:00", event: "Poster Session, Demos, & Networking", icon: Users, type: "poster" },
 ];
 
 const cardVariants = (delay = 0) => ({
