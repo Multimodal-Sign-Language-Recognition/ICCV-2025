@@ -20,7 +20,7 @@ const programSchedule = [
   { time: "12:00-13:00", event: "Oral presentations (Session 3)", icon: Presentation, type: "presentation", session: 3 },
   { time: "13:00-14:00", event: "Lunch Break", icon: Coffee, type: "break" },
   { time: "14:00-14:30", event: "Keynote 3 - Dr. Oscar Koller", icon: UserCircle, type: "keynote", img: Dr_Oscar, title: "Delivering Sign Language AI at Scale: From Synthetic Data to Real-World Use" },
-  { time: "14:30-15:00", event: "Keynote 4 - Abraham Glasser", icon: UserCircle, type: "keynote", img: Dr_Abraham, title: "TBA" },
+  { time: "14:30-15:00", event: "Keynote 4 - Dr. Abraham Glasser", icon: UserCircle, type: "keynote", img: Dr_Abraham, title: "Technology Adoption Strategies: A Risk-Informed Approach for Evaluating AI and Hybrid AI-human Language Access Solutions" },
   { time: "15:00-15:15", event: "Coffee Break & Networking", icon: Coffee, type: "break" },
   { time: "15:15-16:15", event: "Oral presentations (Session 4)", icon: Presentation, type: "presentation", session: 4 },
   { time: "16:15-16:45", event: "Poster Presentations", icon: Presentation, type: "presentation"},
